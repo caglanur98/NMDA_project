@@ -5,9 +5,9 @@ clc
 clear
 close all
 
-script_path = fullfile('/Users/Lucy/Documents/GitHub/NMDA_project/EEG/');   % change to where the scripts are for you
-datapath = fullfile('/Users/Lucy/Documents/Berlin/FU/MCNB/2Semester/NMDAII/EEG_example_dataset/');  % change to where data is for you
-fieldtrip_path = fullfile('/Users/Lucy/Documents/MATLAB/fieldtrip-20230716');  % change to where you downloaded the fieldtrip toolbox
+script_path = fullfile('/Users/caglademirkan/Documents/MATLAB_NMDA/EEG_spm/');   % change to where the scripts are for you
+datapath = fullfile('/Users/caglademirkan/Documents/MATLAB_NMDA/EEG_spm/');  % change to where data is for you
+fieldtrip_path = fullfile('/Users/caglademirkan/Documents/MATLAB_NMDA/fieldtrip-20230716');  % change to where you downloaded the fieldtrip toolbox
 addpath(script_path, datapath, fieldtrip_path)   % add script, data and fieldtrip path
 
 sub = {'01'}; % subjects (in example data set, there is only one subject)
