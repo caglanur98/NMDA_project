@@ -58,6 +58,8 @@ Preprocessing:
 9. Averaging
 
 
-Data:
+References:
 
-Penny, W., Friston, K., Ashburner, J., Kiebel, S., & Nichols, T. (2011). Statistical Parametric Mapping: The Analysis of Functional Brain Images. Elsevier/Academic Press. Retrieved from https://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf
+Penny, W., Friston, K., Ashburner, J., Kiebel, S., & Nichols, T. (Eds.). (2011). Statistical Parametric Mapping: The Analysis of Functional Brain Images. Academic Press.
+
+SPM12 Manual: https://www.fil.ion.ucl.ac.uk/spm/doc/manual.pdf
