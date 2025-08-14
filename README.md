@@ -5,11 +5,11 @@ The project follows the SPM12 manual exercises using example fMRI and EEG datase
 
 Scripts Available
 
-# fMRI (SPM12)
+## fMRI (SPM12)
 
 Batch script — calls all subscripts; number of participants, runs, sessions, and data paths can be specified here.
 
-Preprocessing:
+### Preprocessing:
 
 1. Realignment
 
@@ -23,29 +23,29 @@ Preprocessing:
 
 3. Smoothing
 
-First-Level Analysis:
+### First-Level Analysis:
 
 4.1. First-level GLM — Specification
 4.2. First-level GLM — Estimation
 
-Second-Level Analysis:
+### Second-Level Analysis:
 
 5.1. Second-level GLM — Contrasts
 5.2. Second-level GLM — Inference Results
 5.3. Second-level GLM — Rendering
 
-# EEG (SPM12)
+## EEG (SPM12)
 
 Batch script — contains all preprocessing steps to run them together as part of a pipeline.
 
-Steps before preprocessing:
+### Steps before preprocessing:
 
 1. Convert .bdf file to .mat
 2. Channel selection
 3. Prepare montage
 4. Prepare trial definitions for epoching
 
-Preprocessing:
+### Preprocessing:
 
 1. Convert
 2. Montage
@@ -58,7 +58,7 @@ Preprocessing:
 9. Averaging
 
 
-References:
+## References:
 
 Penny, W., Friston, K., Ashburner, J., Kiebel, S., & Nichols, T. (Eds.). (2011). Statistical Parametric Mapping: The Analysis of Functional Brain Images. Academic Press.
 
