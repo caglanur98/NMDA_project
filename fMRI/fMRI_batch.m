@@ -9,9 +9,9 @@ no_runs = 1;    % enter the number of runs here
 no_sessions = 1;    % enter the number of sessions here
 no_vp = 1;  % enter the number of participants here
 
-script_path = fullfile('/Users/Cagla/Documents/NMDA_project/');   % change to where the scripts are for you
-datapath = fullfile('/Users/Cagla/Documents/NMDA_project/fMRI_dataset/MoAEpilot/');  % change to where data is for you
-spm_path = fullfile('/Users/Cagla/Documents/MATLAB/spm12');  % change to where you downloaded the spm toolbox
+script_path = fullfile('/Users/caglademirkan/Documents/MATLAB_NMDA/fMRI_spm/');   % change to where the scripts are for you
+datapath = fullfile('/Users/caglademirkan/Documents/MATLAB_NMDA/fMRI_spm/MoAEpilot/');  % change to where data is for you
+spm_path = fullfile('/Users/caglademirkan/Documents/MATLAB_NMDA/spm12');  % change to where you downloaded the spm toolbox
 addpath(script_path, datapath, spm_path)   % add script, data and spm path
 
 spm('defaults', 'FMRI');    % setup spm
